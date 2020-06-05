@@ -1,6 +1,6 @@
-package observer_UiComponent.subject;
+package observer_UiComponent.subjects;
 
-public class Button extends UiComponent {
+public class TextBox extends UiComponent {
 
     private String text;
 
@@ -10,10 +10,7 @@ public class Button extends UiComponent {
         getTextChangeEventHandler().handle();
     }
 
-    public String getText() {
-        return this.text;
-    }
-
+    @Override
     public void onClick() {
         getClickEventHandler().handle();
     }

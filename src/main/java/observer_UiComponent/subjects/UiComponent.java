@@ -1,4 +1,4 @@
-package observer_UiComponent.subject;
+package observer_UiComponent.subjects;
 
 import java.util.ArrayList;
 import java.util.List;

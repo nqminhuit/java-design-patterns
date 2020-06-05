@@ -2,8 +2,8 @@ package observer_UiComponent;
 
 import observer_UiComponent.observers.ClickEventHandler;
 import observer_UiComponent.observers.TextChangeEventHandler;
-import observer_UiComponent.subject.Button;
-import observer_UiComponent.subject.TextBox;
+import observer_UiComponent.subjects.Button;
+import observer_UiComponent.subjects.TextBox;
 
 public class App {
 
